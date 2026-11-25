@@ -1,6 +1,6 @@
-is_closed = False
+is_closed = True
 
 if is_closed:
-    print("Geöffnet")
-else:
     print("Geschlossen")
+else:
+    print("Geöffnet")

@@ -1,0 +1,10 @@
+file_name = input("Dateiname : ").strip().lower()
+print("Dateiname : " ,file_name)
+first_name = file_name .startswith ("test_")
+print("Bereinigt : " ,first_name)
+nach_name = file_name.endswith(".py")
+print("Beginit mit test : " , nach_name)
+space_name = " " in file_name
+print("Enthält leerzeichen : " , space_name)
+sugg_name = file_name.replace(" ","_")
+print("Vorschlag : " , sugg_name)
